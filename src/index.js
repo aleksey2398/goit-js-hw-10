@@ -1,8 +1,7 @@
 import './css/styles.css';
 import debounce from 'lodash.debounce';
-import { Notify } from 'notiflix';
-// import countryCardTemplate from './country-card.hbs';
-// import countryListTemplate from './country-list.hbs';
+import Notiflix,{ Notify } from 'notiflix';
+
 import { fetchCountries } from'./fetchCountries';
 
 const countryInput = document.querySelector('#search-box');
