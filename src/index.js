@@ -1,6 +1,6 @@
 import './css/styles.css';
 import debounce from 'lodash.debounce';
-import Notiflix, { Notify } from 'notiflix';
+import { Notify } from 'notiflix';
 // import countryCardTemplate from './country-card.hbs';
 // import countryListTemplate from './country-list.hbs';
 import { fetchCountries } from'./fetchCountries';
